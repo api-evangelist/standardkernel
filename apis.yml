@@ -1,7 +1,25 @@
 aid: standardkernel
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/standardkernel.png
 name: Standardkernel
-description: Standardkernel is a company surfaced as a portfolio company of felicis and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Standard Kernel Co. is an AI infrastructure company that automatically generates
+  high-performance compute kernels for GPUs and TPUs. It targets the traditionally manual,
+  expertise-intensive process of writing optimized low-level accelerator code, operating at
+  the CUDA and PTX level to fully exploit new hardware features rather than relying on higher-level
+  abstractions, delivering better performance on compute-bound machine-learning workloads and newer
+  accelerator architectures. Surfaced as a portfolio company of Felicis and added to the API
+  Evangelist network; the company is early-stage and publishes no public API, developer portal,
+  or specification at this time.
 url: https://raw.githubusercontent.com/api-evangelist/standardkernel/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +29,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- AI Infrastructure
+- GPU
+- TPU
+- Compute Kernels
+- CUDA
+- Machine Learning
+- Hardware Acceleration
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +46,18 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/standardkernel-domain-security.yml
 - type: Website
   url: https://standardkernel.com
+- type: Blog
+  url: https://standardkernel.com/blog
+- type: SignUp
+  url: https://docs.google.com/forms/d/e/1FAIpQLSc7_F7F6LLh_yX7k2_v874P72t4KXgqX6Mda5fOQyLFOTa8Kg/viewform
+- type: Twitter
+  url: https://twitter.com/Standard_Kernel
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1

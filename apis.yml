@@ -47,7 +47,7 @@ tags:
 - TPU
 - Compute Kernels
 - CUDA
-- Machine-Learning
+- Machine Learning
 - Hardware Acceleration
 tags_raw:
 - Company
@@ -58,6 +58,7 @@ tags_raw:
 - CUDA
 - Machine Learning
 - Hardware Acceleration
+- Machine-Learning
 apis: []
 maintainers:
 - FN: Kin Lane
